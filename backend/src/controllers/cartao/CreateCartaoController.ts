@@ -5,7 +5,6 @@ class CrateCartaoController{
     async handle(req: Request, res: Response){
 
         const {numero, nomeProprietario, validade, digitoSeguranca } = req.body;
-
         const id_usuario = req.user_id;
 
         const createCartaoService = new CreateCartaoService();
