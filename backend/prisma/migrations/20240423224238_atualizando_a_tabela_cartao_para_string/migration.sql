@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "cartao" ALTER COLUMN "numero" SET DATA TYPE TEXT,
+ALTER COLUMN "digitoSeguranca" SET DATA TYPE TEXT;
